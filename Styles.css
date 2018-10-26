@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    height: 20px;
+    background: none;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-content: flex-end;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 800px;
+}
+
+nav ul li{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+    list-style: none;
+
+
+}
+
+.logo img{
+    margin: 20px;
+    height: 50px;
+}
+
+
+#banner {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url(arquivos/maniac\ \(2\).jpg);
+    background-size: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+button{
+    border: 0;
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    margin-left: 600px;
+    margin-top:200px;
+    color: white;
+}
+
+button p{
+    text-decoration-color: white;
+}
+
+.seriesbox{
+    margin: 10vh;
+    display: flex;
+}
+
+#series{
+    display: flex;
+    margin: 0 50px;
+    width: 50vh;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#series h4{
+    margin: 0;
+}
+
+
+
+.imagem{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 100%;
+}
